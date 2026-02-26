@@ -1,0 +1,26 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "flags":2,
+            "length":2147483647,
+            "name":"label"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":93,
+            "name":"month_date"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"total_games"
+        }
+    ],
+    "name":"vw_games_per_month",
+    "tableType":1
+}

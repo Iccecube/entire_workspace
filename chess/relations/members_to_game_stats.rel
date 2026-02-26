@@ -1,0 +1,17 @@
+{
+    "allowCreationRelatedRecords":true,
+    "foreignDataSource":"db:/chess_club_db/member_game_stats",
+    "items":[
+        {
+            "foreignColumnName":"member_id",
+            "primaryDataProviderID":"member_id",
+            "typeid":23,
+            "uuid":"1B457767-9108-4473-AAD6-A13864C2A568"
+        }
+    ],
+    "joinType":1,
+    "name":"members_to_game_stats",
+    "primaryDataSource":"db:/chess_club_db/chess_members",
+    "typeid":22,
+    "uuid":"55F2DE75-E1FC-42D0-A058-DE80F4522A0C"
+}

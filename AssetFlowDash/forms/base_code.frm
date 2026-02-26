@@ -1,0 +1,20 @@
+{
+    "customProperties":{
+        "formComponent":false,
+        "useCssPosition":true
+    },
+    "encapsulation":108,
+    "items":[
+        {
+            "height":480,
+            "partType":5,
+            "typeid":19,
+            "uuid":"6C99D024-975B-4AB3-9A51-15F4A52545BE"
+        }
+    ],
+    "name":"base_code",
+    "navigatorID":"-1",
+    "showInMenu":true,
+    "typeid":3,
+    "uuid":"D646FA8E-BF70-47EC-953B-B4034215A540"
+}

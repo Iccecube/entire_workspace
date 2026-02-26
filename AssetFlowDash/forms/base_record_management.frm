@@ -1,0 +1,10 @@
+{
+    "customProperties":{
+        "formComponent":false,
+        "useCssPosition":true
+    },
+    "extendsID":"D646FA8E-BF70-47EC-953B-B4034215A540",
+    "name":"base_record_management",
+    "typeid":3,
+    "uuid":"AFA5CA9E-5A11-4890-8078-856B7A9F3A7C"
+}

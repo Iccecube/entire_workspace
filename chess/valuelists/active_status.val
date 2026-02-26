@@ -1,0 +1,13 @@
+{
+    "addEmptyValue":1,
+    "customProperties":{
+        "lazyLoading":false
+    },
+    "customValues":"Active|1\r\
+Inactive|0",
+    "displayValueType":12,
+    "name":"active_status",
+    "realValueType":4,
+    "typeid":34,
+    "uuid":"2FB65B04-94E2-40E5-AE0C-FCBA269786BF"
+}

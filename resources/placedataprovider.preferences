@@ -1,0 +1,19 @@
+{
+    "_":{
+        "DATETIME":"bootstrapcomponents-calendar",
+        "FIELD_HEIGTH":"30",
+        "FIELD_SPACING":"10",
+        "FIELD_WIDTH":"180",
+        "I18N_PREFIX":"",
+        "INTEGER":"bootstrapcomponents-textbox",
+        "LABEL_COMPONENT":"bootstrapcomponents-label",
+        "LABEL_HEIGTH":"20",
+        "LABEL_SPACING":"0",
+        "LABEL_WIDTH":"180",
+        "MEDIA":"bootstrapcomponents-imagemedia",
+        "NUMBER":"bootstrapcomponents-textbox",
+        "PLACE_ON_TOP":true,
+        "PLACE_WITH_LABELS":true,
+        "TEXT":"bootstrapcomponents-textbox"
+    }
+}

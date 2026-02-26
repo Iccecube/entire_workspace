@@ -1,0 +1,10 @@
+{
+    "customProperties":{
+        "formComponent":false,
+        "useCssPosition":true
+    },
+    "extendsID":"D646FA8E-BF70-47EC-953B-B4034215A540",
+    "name":"base_details",
+    "typeid":3,
+    "uuid":"9918C760-5D75-466C-AE3C-4BE2601602DF"
+}

@@ -1,0 +1,37 @@
+[
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"manifest.json",
+    "typeid":37,
+    "uuid":"EDF0EEF5-EC08-41B8-A601-B31EE70F7617"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"solution_properties.less",
+    "typeid":37,
+    "uuid":"1CFC6AD4-FE6B-40B6-A987-808174FE0B52"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"testSolution.less",
+    "typeid":37,
+    "uuid":"05669ADD-A834-43FD-8DF5-D68F34E646B2"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"variants.json",
+    "typeid":37,
+    "uuid":"ABE152F1-925E-4943-937E-C40E64A6E4FC"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"webapp144.png",
+    "typeid":37,
+    "uuid":"E5E0E64C-11F7-400A-818F-7FE2E86DC042"
+}
+]

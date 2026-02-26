@@ -1,0 +1,16 @@
+{
+    "allowCreationRelatedRecords":true,
+    "foreignDataSource":"db:/chess_club_db/chess_games",
+    "items":[
+        {
+            "foreignColumnName":"black_player_id",
+            "primaryDataProviderID":"member_id",
+            "typeid":23,
+            "uuid":"8B9B00CB-C740-4934-B660-7598A936E798"
+        }
+    ],
+    "name":"members_to_games_as_black",
+    "primaryDataSource":"db:/chess_club_db/chess_members",
+    "typeid":22,
+    "uuid":"7D7ED969-6717-40F5-ADDD-18400B6EE08F"
+}

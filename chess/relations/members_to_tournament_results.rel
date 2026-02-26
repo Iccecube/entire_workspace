@@ -1,0 +1,17 @@
+{
+    "allowCreationRelatedRecords":true,
+    "foreignDataSource":"db:/chess_club_db/tournament_registrations",
+    "initialSort":"registration_date desc",
+    "items":[
+        {
+            "foreignColumnName":"member_id",
+            "primaryDataProviderID":"member_id",
+            "typeid":23,
+            "uuid":"8DB41B4A-8047-4E82-A7A7-1A46E22FDF75"
+        }
+    ],
+    "name":"members_to_tournament_results",
+    "primaryDataSource":"db:/chess_club_db/chess_members",
+    "typeid":22,
+    "uuid":"E66B190D-9486-4D57-BDAC-013EFAA3B471"
+}

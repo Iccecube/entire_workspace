@@ -1,0 +1,26 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":2,
+            "name":"member_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":2147483647,
+            "name":"label"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"total"
+        }
+    ],
+    "name":"vw_member_game_results",
+    "tableType":1
+}

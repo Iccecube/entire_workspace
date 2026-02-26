@@ -1,0 +1,14 @@
+{
+    "dataSource":"db:/chess_club_db/chess_members",
+    "items":[
+        {
+            "dataProviderIDToAggregate":"member_id",
+            "name":"membership_count",
+            "type":4,
+            "typeid":40,
+            "uuid":"EB532598-7D39-445F-AE67-F3B215BEB379"
+        }
+    ],
+    "typeid":39,
+    "uuid":"8B7BC1BE-3651-4F01-8CAF-9120B38F58C7"
+}

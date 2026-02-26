@@ -1,0 +1,17 @@
+{
+    "addEmptyValue":1,
+    "customProperties":{
+        "lazyLoading":false
+    },
+    "dataProviderID1":"name",
+    "dataProviderID2":"employee_uuid",
+    "dataSource":"db:/assetflowdb/employees",
+    "displayValueType":12,
+    "name":"NameEmployee",
+    "realValueType":12,
+    "returnDataProviders":2,
+    "showDataProviders":1,
+    "typeid":34,
+    "uuid":"2944CC3B-D162-4545-A306-7B4057619873",
+    "valueListType":1
+}

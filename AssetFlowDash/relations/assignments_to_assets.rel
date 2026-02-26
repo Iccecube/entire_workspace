@@ -1,0 +1,17 @@
+{
+    "allowCreationRelatedRecords":true,
+    "foreignDataSource":"db:/assetflowdb/assets",
+    "items":[
+        {
+            "foreignColumnName":"asset_uuid",
+            "primaryDataProviderID":"asset_id",
+            "typeid":23,
+            "uuid":"71CAA756-1065-4208-AA9B-9F5BA0D8D9E1"
+        }
+    ],
+    "joinType":1,
+    "name":"assignments_to_assets",
+    "primaryDataSource":"db:/assetflowdb/assignments",
+    "typeid":22,
+    "uuid":"8E0150D8-5C80-4B3A-B24F-D270D33198F3"
+}

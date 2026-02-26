@@ -1,0 +1,15 @@
+{
+    "addEmptyValue":1,
+    "customProperties":{
+        "lazyLoading":false
+    },
+    "customValues":"🔵 Assigned|ASSIGNED\
+🟢 In Stock|IN_STOCK\
+🔴     Retired|RETIRED\
+🟠     In Repair|IN_REPAIR",
+    "displayValueType":12,
+    "name":"AssetsStates",
+    "realValueType":12,
+    "typeid":34,
+    "uuid":"30EC734B-3924-4D35-9D4B-67160593D310"
+}

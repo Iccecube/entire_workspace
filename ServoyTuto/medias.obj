@@ -1,0 +1,37 @@
+[
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"manifest.json",
+    "typeid":37,
+    "uuid":"744F71FE-9449-497E-96FC-27DA320BE44E"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"ServoyTuto.less",
+    "typeid":37,
+    "uuid":"798BA1FE-3F40-4549-8032-1C3FF343B385"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"solution_properties.less",
+    "typeid":37,
+    "uuid":"EEA2A5A5-A1F8-496D-8CC4-1AD6E0B5B1C4"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"variants.json",
+    "typeid":37,
+    "uuid":"31BBBF10-3FC8-4257-9CC2-587F8168B4F9"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"webapp144.png",
+    "typeid":37,
+    "uuid":"E02E00AA-3E77-4F8D-84AB-9B33853C162E"
+}
+]

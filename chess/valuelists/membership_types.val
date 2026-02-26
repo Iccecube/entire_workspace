@@ -1,0 +1,12 @@
+{
+    "addEmptyValue":1,
+    "customValues":"Regular|regular\r\
+Premium|premium\r\
+Junior|junior\r\
+Senior|senior",
+    "displayValueType":12,
+    "name":"membership_types",
+    "realValueType":12,
+    "typeid":34,
+    "uuid":"D81C974D-A52C-4DEF-BF72-E2770CA2589B"
+}

@@ -1,0 +1,32 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":2,
+            "name":"member_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"display_order"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":2147483647,
+            "name":"metric_name"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":2,
+            "name":"metric_value"
+        }
+    ],
+    "name":"player_radar_data",
+    "tableType":1
+}

@@ -1,0 +1,17 @@
+{
+    "addEmptyValue":1,
+    "customProperties":{
+        "lazyLoading":false
+    },
+    "dataProviderID1":"tournament_name",
+    "dataProviderID2":"tournament_id",
+    "dataSource":"db:/chess_club_db/tournaments",
+    "displayValueType":12,
+    "name":"tournament_search",
+    "realValueType":4,
+    "returnDataProviders":2,
+    "showDataProviders":1,
+    "typeid":34,
+    "uuid":"68A816CE-CF1B-40A5-B551-E49659CB2A38",
+    "valueListType":1
+}

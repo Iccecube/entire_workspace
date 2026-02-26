@@ -1,0 +1,11 @@
+{
+    "addEmptyValue":1,
+    "customValues":"Hardware\
+Software\
+",
+    "displayValueType":12,
+    "name":"AssetTypeList",
+    "realValueType":12,
+    "typeid":34,
+    "uuid":"28FD9DD9-AE1F-4073-AE12-D55B365A892F"
+}

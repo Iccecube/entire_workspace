@@ -1,0 +1,17 @@
+{
+    "addEmptyValue":1,
+    "customProperties":{
+        "lazyLoading":false
+    },
+    "dataProviderID1":"name",
+    "dataProviderID2":"asset_uuid",
+    "dataSource":"db:/assetflowdb/assets",
+    "displayValueType":12,
+    "name":"NameAsset",
+    "realValueType":12,
+    "returnDataProviders":2,
+    "showDataProviders":1,
+    "typeid":34,
+    "uuid":"DFC1A481-C20F-4DED-8716-C0A1BD023132",
+    "valueListType":1
+}

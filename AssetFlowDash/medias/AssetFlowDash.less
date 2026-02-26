@@ -1,0 +1,182 @@
+// import of the default servoy theme, comment out or delete the line if you don't want to use the default servoy theme.
+@import 'servoy_theme.less';
+// import of the solution theme properties that only incudes the servoy theme properties and custom properties.
+@import 'solution_properties.less';
+
+
+.kpi-card {
+    border-radius: 12px;        
+    padding: 15px 20px;        
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+    border-left: 5px solid rgba(0,0,0,0.1); 
+    color: #333;                
+    transition: transform 0.2s; 
+}
+
+.kpi-card:hover {
+    transform: translateY(-3px); 
+}
+
+.bg-green {
+    background-color: #d1fae5; 
+    color: #065f46;           
+}
+
+
+.bg-orange {
+    background-color: #fef3c7; 
+    color: #92400e;           
+}
+
+
+.bg-red {
+    background-color: #fee2e2; 
+    color: #991b1b;            
+}
+
+
+.bg-blue {
+    background-color: #dbeafe; 
+    color: #1e40af;            
+}
+
+
+.kpi-big-text { 
+    font-size: 26px; 
+    font-weight: 800; 
+    margin-top: 5px; 
+}
+
+.kpi-label { 
+    font-size: 11px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    opacity: 0.8; 
+}
+
+.kpi-icon { 
+    font-size: 22px; 
+    float: right; 
+    opacity: 0.4; 
+}
+
+
+.btn-primary {
+    background-color: #3498db;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.4);
+}
+
+
+.btn-success {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(46, 204, 113, 0.3);
+    transition: all 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+    box-shadow: 0 4px 8px rgba(46, 204, 113, 0.4);
+    transform: translateY(-1px);
+}
+
+
+.btn-info {
+    background-color: #17a2b8;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(23, 162, 184, 0.3);
+    transition: all 0.2s ease;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    box-shadow: 0 4px 8px rgba(23, 162, 184, 0.4);
+    transform: translateY(-1px);
+}
+
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(231, 76, 60, 0.3);
+    transition: all 0.2s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-success:active, .btn-info:active, .btn-danger:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Custom Blue Header */
+.header-blue {
+    background-color: #5c9ad4; /* The specific blue from your image */
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 15px;
+}
+
+/* Custom Blue Labels */
+.label-blue {
+    color: #5c9ad4; /* Matches the header blue */
+    font-weight: 700; /* Bold text */
+    font-size: 0.95rem;
+}
+
+/* Custom Red Cancel Button */
+.btn-custom-red {
+    background-color: #e85c4a; /* The reddish-orange color */
+    color: white;
+    border: none;
+}
+.btn-custom-red:hover {
+    background-color: #d64535;
+    color: white;
+}
+
+/* Custom Green Save Button */
+.btn-custom-green {
+    background-color: #5cb85c; /* The bright green color */
+    color: white;
+    border: none;
+}
+.btn-custom-green:hover {
+    background-color: #449d44;
+    color: white;
+}
+
+/* Clean Input Styles */
+.form-control-clean {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+

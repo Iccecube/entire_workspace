@@ -1,0 +1,27 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "flags":2,
+            "length":2147483647,
+            "name":"category"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":2,
+            "name":"member_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"count"
+        }
+    ],
+    "name":"member_game_stats_chart",
+    "tableType":1
+}

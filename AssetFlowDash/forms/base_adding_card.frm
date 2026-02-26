@@ -1,0 +1,10 @@
+{
+    "customProperties":{
+        "formComponent":false,
+        "useCssPosition":true
+    },
+    "extendsID":"D646FA8E-BF70-47EC-953B-B4034215A540",
+    "name":"base_adding_card",
+    "typeid":3,
+    "uuid":"C183B54E-61D7-45A7-A31E-2B117A3D943F"
+}

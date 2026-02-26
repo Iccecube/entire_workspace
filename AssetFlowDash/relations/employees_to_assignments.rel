@@ -1,0 +1,17 @@
+{
+    "allowCreationRelatedRecords":true,
+    "foreignDataSource":"db:/assetflowdb/assignments",
+    "items":[
+        {
+            "foreignColumnName":"employee_id",
+            "primaryDataProviderID":"employee_uuid",
+            "typeid":23,
+            "uuid":"F57F29FF-7FAC-456E-B4AF-AF15EB4B5384"
+        }
+    ],
+    "joinType":1,
+    "name":"employees_to_assignments",
+    "primaryDataSource":"db:/assetflowdb/employees",
+    "typeid":22,
+    "uuid":"D313867E-C826-425F-AC50-C82159AF4698"
+}

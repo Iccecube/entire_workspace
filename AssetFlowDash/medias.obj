@@ -1,0 +1,37 @@
+[
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"AssetFlowDash.less",
+    "typeid":37,
+    "uuid":"4B25629B-855D-46E4-A542-6534BA2EE7B2"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"manifest.json",
+    "typeid":37,
+    "uuid":"CD364960-1865-4F66-AD23-EB02A0C95733"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"solution_properties.less",
+    "typeid":37,
+    "uuid":"81033786-CEE8-45E8-A32B-5E4975ECE439"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"variants.json",
+    "typeid":37,
+    "uuid":"E5D89333-F758-4F66-B413-DF809B112663"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"webapp144.png",
+    "typeid":37,
+    "uuid":"97BBB5C7-ACD5-45DF-A145-AA03A712EA97"
+}
+]

@@ -1,0 +1,51 @@
+[
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"chess.less",
+    "typeid":37,
+    "uuid":"31DF33BD-BE26-46F4-9D2B-0D555635FD69"
+},
+{
+    "encapsulation":0,
+    "mimeType":"image/png",
+    "name":"logo.png",
+    "typeid":37,
+    "uuid":"EE319FD2-C4C3-4B75-BE5E-B0938803376A"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"manifest.json",
+    "typeid":37,
+    "uuid":"F265D771-5B6F-4B59-8096-3B32AF924F41"
+},
+{
+    "encapsulation":0,
+    "mimeType":"image/png",
+    "name":"NAVLOGO.png",
+    "typeid":37,
+    "uuid":"0CE439B8-9FBD-4812-8B31-8E391DAD5502"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"solution_properties.less",
+    "typeid":37,
+    "uuid":"A801D8B3-E72B-4CEC-91A3-9F031555B3A0"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"variants.json",
+    "typeid":37,
+    "uuid":"1997BA83-86A0-42CE-AAD6-ED85647D0622"
+},
+{
+    "encapsulation":0,
+    "mimeType":"text/css",
+    "name":"webapp144.png",
+    "typeid":37,
+    "uuid":"8CB9B9A4-DCAF-4595-B870-DC98F441C166"
+}
+]

@@ -1,0 +1,21 @@
+{
+    "customProperties":{
+        "formComponent":false,
+        "useCssPosition":true
+    },
+    "encapsulation":108,
+    "extendsID":"D646FA8E-BF70-47EC-953B-B4034215A540",
+    "items":[
+        {
+            "extendsID":"6C99D024-975B-4AB3-9A51-15F4A52545BE",
+            "height":480,
+            "typeid":19,
+            "uuid":"135C6439-8974-4CF1-A5E8-F8D4AAEDB4EE"
+        }
+    ],
+    "name":"base_sidenav",
+    "navigatorID":"-1",
+    "showInMenu":true,
+    "typeid":3,
+    "uuid":"A5EDC7A5-0AF2-49D9-A5E4-7C412A9C6899"
+}

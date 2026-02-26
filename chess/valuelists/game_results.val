@@ -1,0 +1,11 @@
+{
+    "addEmptyValue":1,
+    "customValues":"White Won|white_win\r\
+Black Won|black_win\r\
+Draw|draw",
+    "displayValueType":12,
+    "name":"game_results",
+    "realValueType":12,
+    "typeid":34,
+    "uuid":"092EE58A-EDDA-4B0A-9084-6CC04FAAE7B7"
+}
