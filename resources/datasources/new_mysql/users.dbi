@@ -1,0 +1,36 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":0,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":1,
+            "name":"id"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":255,
+            "name":"email"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":255,
+            "name":"name"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":255,
+            "name":"password"
+        }
+    ],
+    "name":"users",
+    "tableType":0
+}

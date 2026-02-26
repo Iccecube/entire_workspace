@@ -1,0 +1,26 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"count"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":64,
+            "name":"db"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":19,
+            "name":"object_type"
+        }
+    ],
+    "name":"schema_object_overview",
+    "tableType":1
+}

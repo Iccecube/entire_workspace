@@ -1,0 +1,22 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":3,
+            "length":21,
+            "name":"avg_us"
+        },
+        {
+            "allowNull":false,
+            "compatibleColumnTypes":"[[3,46,4]]",
+            "creationOrderIndex":-1,
+            "dataType":3,
+            "length":46,
+            "name":"percentile",
+            "scale":4
+        }
+    ],
+    "name":"x$ps_digest_95th_percentile_by_avg_us",
+    "tableType":1
+}

@@ -1,0 +1,15 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":0,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":1,
+            "name":"tbl_solution_global_id"
+        }
+    ],
+    "name":"tbl_solution_global",
+    "tableType":0
+}

@@ -1,0 +1,34 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":7,
+            "name":"enabled"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":210,
+            "name":"type"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":193,
+            "name":"variable_name"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":-1,
+            "length":65535,
+            "name":"variable_value"
+        }
+    ],
+    "name":"metrics",
+    "tableType":1
+}

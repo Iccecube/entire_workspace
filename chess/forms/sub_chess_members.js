@@ -85,6 +85,7 @@ function saveRecord(event) {
  */
 function deleteRecord(event) {
     var rec = foundset.getSelectedRecord();
+    application.output(rec);
 
     if (!rec || !rec.member_id) {
         plugins.dialogs.showWarningDialog('No Selection', 'Please select a member to delete.');

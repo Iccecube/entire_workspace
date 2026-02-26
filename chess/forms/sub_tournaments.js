@@ -85,12 +85,13 @@ function deleteRecord(event) {
 
 
 /**
- * @AllowToRunInFind
+ * @	AllowToRunInFind
  * 
  * TODO generated, please specify type and doc for the params
  * @param event
  *
  * @properties={typeid:24,uuid:"2372B25A-0F67-4E2B-9794-03BD5D9286FE"}
+ * @AllowToRunInFind
  */
 function searchRecords(event) {
     if (!searchText || searchText.trim() == '') {
@@ -102,16 +103,11 @@ function searchRecords(event) {
 
     foundset.find();
 
-    var rec = foundset.getSelectedRecord();
-    rec.tournament_name = term;
-
+    tournament_name = term
+    foundset.newRecord();  
+    location = term;
     foundset.newRecord();
-    rec = foundset.getSelectedRecord();
-    rec.location = term;
-
-    foundset.newRecord();
-    rec = foundset.getSelectedRecord();
-    rec.status = term;
+    status = term
 
     var count = foundset.search();
 

@@ -1,0 +1,36 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":3,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":2000,
+            "flags":37,
+            "length":36,
+            "name":"employee_uuid"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":100,
+            "name":"email"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"is_active"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":100,
+            "name":"name"
+        }
+    ],
+    "name":"employees",
+    "tableType":0
+}

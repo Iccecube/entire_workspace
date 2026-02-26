@@ -1,0 +1,33 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":0,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":1,
+            "name":"ixprojectperson"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"ixpeople"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"ixproject"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"ixtenant"
+        }
+    ],
+    "name":"tbl_project_people",
+    "tableType":0
+}

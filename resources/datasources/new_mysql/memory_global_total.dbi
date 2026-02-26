@@ -1,0 +1,13 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":11,
+            "name":"total_allocated"
+        }
+    ],
+    "name":"memory_global_total",
+    "tableType":1
+}

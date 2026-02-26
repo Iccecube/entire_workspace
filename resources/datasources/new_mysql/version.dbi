@@ -1,0 +1,20 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":6,
+            "name":"mysql_version"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":5,
+            "name":"sys_version"
+        }
+    ],
+    "name":"version",
+    "tableType":1
+}

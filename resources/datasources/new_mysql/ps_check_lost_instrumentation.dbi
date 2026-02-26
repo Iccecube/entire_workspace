@@ -1,0 +1,20 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":64,
+            "name":"variable_name"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":1024,
+            "name":"variable_value"
+        }
+    ],
+    "name":"ps_check_lost_instrumentation",
+    "tableType":1
+}

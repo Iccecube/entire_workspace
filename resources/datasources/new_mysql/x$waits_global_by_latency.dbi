@@ -1,0 +1,37 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"avg_latency"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":128,
+            "name":"events"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"max_latency"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"total"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"total_latency"
+        }
+    ],
+    "name":"x$waits_global_by_latency",
+    "tableType":1
+}

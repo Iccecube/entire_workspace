@@ -1,0 +1,35 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":0,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":1,
+            "name":"fval_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":2147483647,
+            "name":"field_value"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"form_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":200,
+            "name":"value_name"
+        }
+    ],
+    "name":"pdf_form_values",
+    "tableType":0
+}

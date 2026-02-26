@@ -1,0 +1,18 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"rank"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"team_count"
+        }
+    ],
+    "name":"team_rating_stats",
+    "tableType":1
+}

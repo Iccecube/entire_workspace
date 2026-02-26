@@ -1,0 +1,19 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"project_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":255,
+            "name":"tag"
+        }
+    ],
+    "name":"project_tags",
+    "tableType":0
+}

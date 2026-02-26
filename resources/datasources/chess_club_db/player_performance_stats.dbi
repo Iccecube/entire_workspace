@@ -1,10 +1,10 @@
 {
     "columns":[
         {
-            "allowNull":true,
+            "allowNull":false,
             "creationOrderIndex":-1,
             "dataType":4,
-            "flags":2,
+            "flags":1,
             "name":"member_id"
         },
         {
@@ -107,5 +107,5 @@
         }
     ],
     "name":"player_performance_stats",
-    "tableType":1
+    "tableType":0
 }

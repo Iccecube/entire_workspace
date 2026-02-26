@@ -1,0 +1,27 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":11,
+            "name":"io_latency"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":3,
+            "length":42,
+            "name":"ios"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":32,
+            "name":"user"
+        }
+    ],
+    "name":"user_summary_by_file_io",
+    "tableType":1
+}

@@ -1,0 +1,33 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":1024,
+            "name":"ssl_cipher"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":1024,
+            "name":"ssl_sessions_reused"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":1024,
+            "name":"ssl_version"
+        },
+        {
+            "allowNull":false,
+            "creationOrderIndex":-1,
+            "dataType":-5,
+            "name":"thread_id"
+        }
+    ],
+    "name":"session_ssl_status",
+    "tableType":1
+}

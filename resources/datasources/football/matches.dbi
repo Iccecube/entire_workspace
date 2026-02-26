@@ -1,0 +1,29 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":3,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":2000,
+            "flags":37,
+            "length":36,
+            "name":"matche_uuid"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"duration"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":50,
+            "name":"score"
+        }
+    ],
+    "name":"matches",
+    "tableType":0
+}

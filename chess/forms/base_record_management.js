@@ -107,7 +107,7 @@ function searchRecords(event) {
 function clearSearch(event) {
     searchText = '';
     foundset.loadAllRecords();
-    plugins.dialogs.showInfoDialog('Cleared', 'Showing all ' + foundset.getSize() + ' records.');
+    plugins.dialogs.showInfoDialog('Cleared', 'Showing all ' +databaseManager.getFoundSetCount(foundset) + ' records.');
 }
 
 /**

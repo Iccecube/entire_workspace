@@ -88,7 +88,7 @@
                                         "text":"Standings"
                                     }
                                 ],
-                                "onMenuItemClicked":"AB0A3563-F64B-40F5-8DF1-E7289EE1A348",
+                                "onMenuItemClicked":"9A2A1ADF-7B42-4706-9600-8C7D4F3FFF3B",
                                 "servoyMenu":null
                             },
                             "location":"40,50",

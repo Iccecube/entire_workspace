@@ -1,0 +1,34 @@
+{
+    "columns":[
+        {
+            "allowNull":false,
+            "autoEnterSubType":0,
+            "autoEnterType":2,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "flags":1,
+            "name":"form_id"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":93,
+            "name":"created_date"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":200,
+            "name":"note"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":4,
+            "name":"template_id"
+        }
+    ],
+    "name":"pdf_forms",
+    "tableType":0
+}

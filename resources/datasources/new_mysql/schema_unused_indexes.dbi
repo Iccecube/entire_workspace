@@ -1,0 +1,27 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":64,
+            "name":"index_name"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":64,
+            "name":"object_name"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":12,
+            "length":64,
+            "name":"object_schema"
+        }
+    ],
+    "name":"schema_unused_indexes",
+    "tableType":1
+}

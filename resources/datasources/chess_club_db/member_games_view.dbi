@@ -1,10 +1,10 @@
 {
     "columns":[
         {
-            "allowNull":true,
+            "allowNull":false,
             "creationOrderIndex":-1,
             "dataType":4,
-            "flags":2,
+            "flags":1,
             "name":"game_id"
         },
         {
@@ -87,5 +87,5 @@
         }
     ],
     "name":"member_games_view",
-    "tableType":1
+    "tableType":0
 }

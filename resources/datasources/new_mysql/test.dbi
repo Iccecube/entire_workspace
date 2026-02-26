@@ -1,0 +1,24 @@
+{
+    "columns":[
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":91,
+            "name":"my_date"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":93,
+            "name":"my_date_time"
+        },
+        {
+            "allowNull":true,
+            "creationOrderIndex":-1,
+            "dataType":92,
+            "name":"my_time"
+        }
+    ],
+    "name":"test",
+    "tableType":0
+}
