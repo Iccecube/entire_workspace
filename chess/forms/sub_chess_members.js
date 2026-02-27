@@ -33,11 +33,13 @@ function newRecord(event) {
  */
 function saveRecord(event) {
     var rec = foundset.getSelectedRecord();
+    application.output(rec);
 
     if (!rec) {
         plugins.dialogs.showWarningDialog('No Selection', 'No member selected.');
         return false;
     }
+    
 
     // Required field validation
     if (!rec.first_name || rec.first_name.trim() == '') {
@@ -85,30 +87,14 @@ function saveRecord(event) {
  */
 function deleteRecord(event) {
     var rec = foundset.getSelectedRecord();
-    application.output(rec);
-
-    if (!rec || !rec.member_id) {
-        plugins.dialogs.showWarningDialog('No Selection', 'Please select a member to delete.');
-        return;
-    }
-
+    const answer = scopes.dialog.deleteRecord(rec);
     var memberName = rec.first_name + ' ' + rec.last_name;
 
-    var response = plugins.dialogs.showQuestionDialog(
-        'Delete Member',
-        'Delete ' + memberName + '? This cannot be undone.\n\nAll games and registrations will also be deleted.',
-        'Yes, Delete',
-        'No, Cancel'
-    );
-
-    if (response == 'Yes, Delete') {
-        var success = foundset.deleteRecord();
-        if (success) {
-            databaseManager.saveData();
-            plugins.dialogs.showInfoDialog('Deleted', memberName + ' has been deleted.');
-        } else {
-            plugins.dialogs.showErrorDialog('Error', 'Could not delete member.');
-        }
+    if (answer) {
+       foundset.deleteRecord();
+       databaseManager.saveData();
+       plugins.dialogs.showInfoDialog('Deleted', memberName + ' has been deleted.');
+       
     }
 }
 
@@ -130,23 +116,11 @@ function searchRecords(event) {
     var term = '%' + searchText.trim() + '%';
 
     foundset.find();
-
-    var rec = foundset.getSelectedRecord();
-    rec.first_name = term;
-
+    first_name = term;
     foundset.newRecord();
-    rec = foundset.getSelectedRecord();
-    rec.last_name = term;
-
+    last_name = term;
     foundset.newRecord();
-    rec = foundset.getSelectedRecord();
-    rec.email = term;
-
-    if (!isNaN(searchText)) {
-        foundset.newRecord();
-        rec = foundset.getSelectedRecord();
-        rec.rating = parseInt(searchText);
-    }
+    email = term;
 
     var count = foundset.search();
 

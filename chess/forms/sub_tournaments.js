@@ -57,29 +57,13 @@ function saveRecord(event) {
  */
 function deleteRecord(event) {
     var rec = foundset.getSelectedRecord();
-
-    if (!rec || !rec.tournament_id) {
-        plugins.dialogs.showWarningDialog('No Selection', 'Please select a tournament to delete.');
-        return;
-    }
-
     var tName = rec.tournament_name;
-
-    var response = plugins.dialogs.showQuestionDialog(
-        'Delete Tournament',
-        'Delete ' + tName + '? This cannot be undone.\n\nAll registrations will also be deleted.',
-        'Yes, Delete',
-        'No, Cancel'
-    );
-
-    if (response == 'Yes, Delete') {
-        var success = foundset.deleteRecord();
-        if (success) {
-            databaseManager.saveData();
-            plugins.dialogs.showInfoDialog('Deleted', tName + ' has been deleted.');
-        } else {
-            plugins.dialogs.showErrorDialog('Error', 'Could not delete tournament.');
-        }
+    const answer = scopes.dialog.deleteRecord(rec);
+    if (answer) {
+       foundset.deleteRecord();
+       databaseManager.saveData();
+       plugins.dialogs.showInfoDialog('Deleted', tName + ' has been deleted.');
+       
     }
 }
 
