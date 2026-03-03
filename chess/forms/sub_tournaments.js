@@ -91,16 +91,11 @@ function searchRecords(event) {
     foundset.newRecord();  
     location = term;
     foundset.newRecord();
-    status = term
+    status = term;
 
     var count = foundset.search();
-
-    if (count > 0) {
-        plugins.dialogs.showInfoDialog('Results', 'Found ' + count + ' tournament(s).');
-    } else {
-        plugins.dialogs.showInfoDialog('No Results', 'No tournaments found matching "' + searchText + '".');
-        foundset.loadAllRecords();
-    }
+    application.output(count);
+    scopes.dialog.searchDialog(count);
 }
 
 

@@ -24,3 +24,17 @@ function deleteRecord(rec){
     }
     
 }
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param count
+ *
+ * @properties={typeid:24,uuid:"996A9BE5-0320-45CE-9BC5-B38B31DC389E"}
+ */
+function searchDialog(count) {
+	if (count > 0) {
+        plugins.dialogs.showInfoDialog('Results', 'Found ' + count + ' record(s).');
+    } else {
+        plugins.dialogs.showInfoDialog('No Results', 'No records found matching "' + searchText + '".');
+        foundset.loadAllRecords();
+    }
+}

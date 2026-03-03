@@ -33,7 +33,7 @@ function newRecord(event) {
  */
 function saveRecord(event) {
     var rec = foundset.getSelectedRecord();
-    application.output(rec);
+    application.output(rec.first_name);
 
     if (!rec) {
         plugins.dialogs.showWarningDialog('No Selection', 'No member selected.');
@@ -42,7 +42,7 @@ function saveRecord(event) {
     
 
     // Required field validation
-    if (!rec.first_name || rec.first_name.trim() == '') {
+    if (!rec.first		_name || rec.first_name.trim() == '') {
         plugins.dialogs.showWarningDialog('Required', 'First Name is required.');
         return false;
     }
@@ -124,11 +124,7 @@ function searchRecords(event) {
 
     var count = foundset.search();
 
-    if (count > 0) {
-        plugins.dialogs.showInfoDialog('Results', 'Found ' + count + ' member(s).');
-    } else {
-        plugins.dialogs.showInfoDialog('No Results', 'No members found matching "' + searchText + '".');
-    }
+    scopes.dialog.searchDialog(count);
 }
 
 
