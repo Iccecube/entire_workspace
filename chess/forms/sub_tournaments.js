@@ -94,8 +94,17 @@ function searchRecords(event) {
     status = term;
 
     var count = foundset.search();
-    application.output(count);
-    scopes.dialog.searchDialog(count);
+ 
+
+    if (count > 0) {
+        plugins.dialogs.showInfoDialog('Results', 'Found ' + count + ' record(s).');
+    } else {
+        plugins.dialogs.showInfoDialog('No Results', 'No records found matching "' + searchText + '".');
+        foundset.loadAllRecords();
+    }
+    
+    
+    
 }
 
 

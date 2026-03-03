@@ -87,15 +87,7 @@ function cancelChanges(event) {
     }
 }
 
-/**
- * TODO generated, please specify type and doc for the params
- * @param event
- *
- * @properties={typeid:24,uuid:"F47AC926-C7EC-423B-A626-5DE57334574B"}
- */
-function searchRecords(event) {
-    plugins.dialogs.showWarningDialog('Search', 'Search not implemented for this form.');
-}
+
 
 
 /**

@@ -41,6 +41,23 @@
             "uuid":"0ED7615C-A5C6-48A2-B9CE-C129233ECA2E"
         },
         {
+            "customProperties":{
+                "methods":{
+                    "onActionMethodID":{
+                        "arguments":null,
+                        "parameters":null
+                    }
+                }
+            },
+            "extendsID":"3F2E57DA-C32D-40EC-823D-077FD5E07AD5",
+            "json":{
+                "onActionMethodID":"1E4A18FC-6FB8-48D3-8ECF-B74D2E7854AF"
+            },
+            "typeName":"bootstrapcomponents-button",
+            "typeid":47,
+            "uuid":"1099CCEE-EFEB-43F9-8787-185BF3E79376"
+        },
+        {
             "extendsID":"E7FD0C43-612A-4553-8B10-D6638263E1A7",
             "items":[
                 {
