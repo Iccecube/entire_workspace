@@ -1,3 +1,10 @@
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"B58C12A1-639B-4016-B990-A709C9B64EBE"}
+ */
+var searchText = null;
+
 
 /**
  * TODO generated, please specify type and doc for the params
@@ -10,7 +17,6 @@ function newRecord(event) {
     if (!_super.newRecord(event)) return;
 
     var rec = foundset.getSelectedRecord();
-    rec.tournament_name = 'New Tournament';
     rec.start_date = application.getServerTimeStamp();
     rec.status = 'upcoming';
     rec.prize_fund = 0;
@@ -18,6 +24,12 @@ function newRecord(event) {
 
     plugins.dialogs.showInfoDialog('New Tournament', 'Enter details and click Save.');
 }
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"C269A5CB-EDC3-47D3-BDF1-F5D06CD1C13C"}
+ */
 
 
 /**
@@ -78,30 +90,12 @@ function deleteRecord(event) {
  * @AllowToRunInFind
  */
 function searchRecords(event) {
-    if (!searchText || searchText.trim() == '') {
-        plugins.dialogs.showWarningDialog('Search', 'Please enter search text.');
-        return;
-    }
-
-    var term = '%' + searchText.trim() + '%';
-
-    foundset.find();
-
-    tournament_name = term
-    foundset.newRecord();  
-    location = term;
-    foundset.newRecord();
-    status = term;
-
-    var count = foundset.search();
- 
-
-    if (count > 0) {
-        plugins.dialogs.showInfoDialog('Results', 'Found ' + count + ' record(s).');
-    } else {
-        plugins.dialogs.showInfoDialog('No Results', 'No records found matching "' + searchText + '".');
-        foundset.loadAllRecords();
-    }
+	var term = '%' + searchText.trim() + '%';
+	application.output('Searching for: ' + term);
+	_super.searchableColumns = ['tournament_name', 'status', 'location'];
+	application.output('Searchable columns: ' + searchableColumns.join(', '));
+    _super.search(term, searchableColumns) ;
+ 	
     
     
     

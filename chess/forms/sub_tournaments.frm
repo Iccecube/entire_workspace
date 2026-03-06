@@ -209,6 +209,23 @@
             "uuid":"3D7249CC-9AC4-433F-927A-37145DCFE218"
         },
         {
+            "customProperties":{
+                "methods":{
+                    "onActionMethodID":{
+                        "arguments":null,
+                        "parameters":null
+                    }
+                }
+            },
+            "extendsID":"B7A9F7A1-170E-4850-827A-A8307435B380",
+            "json":{
+                "onActionMethodID":"2372B25A-0F67-4E2B-9794-03BD5D9286FE"
+            },
+            "typeName":"bootstrapcomponents-textbox",
+            "typeid":47,
+            "uuid":"5836F092-7AA6-418D-A965-21C669E58856"
+        },
+        {
             "extendsID":"2ADE4025-D83D-4FB3-B70D-8FBC9F3F4372",
             "items":[
                 {
@@ -347,6 +364,23 @@
             ],
             "typeid":46,
             "uuid":"75A7877C-E3E2-4310-B036-3536440B1E1C"
+        },
+        {
+            "customProperties":{
+                "methods":{
+                    "onActionMethodID":{
+                        "arguments":null,
+                        "parameters":null
+                    }
+                }
+            },
+            "extendsID":"3F2E57DA-C32D-40EC-823D-077FD5E07AD5",
+            "json":{
+                "onActionMethodID":"2372B25A-0F67-4E2B-9794-03BD5D9286FE"
+            },
+            "typeName":"bootstrapcomponents-button",
+            "typeid":47,
+            "uuid":"8076A5E2-07AC-4D96-A38F-CDE16F51F0E0"
         },
         {
             "extendsID":"2E4D878D-8252-420F-B9DA-91D85F194A6E",
